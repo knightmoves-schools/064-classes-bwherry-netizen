@@ -1,7 +1,8 @@
 class Person {
- construnctor(firstName, lastName)
+ construnctor(firstName, lastName) {
  this.firstName = firstName;
  this.lastName = lastName;
+ }
 }
 
 
@@ -11,6 +12,7 @@ const guests = [
  new Person ('Stanly', 'Peters'),
  new Person ('Max', 'Becker'),
 ];
+
 
 
 
