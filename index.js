@@ -3,12 +3,10 @@ class person {
   this.firstName = firstName;
   this.lastName = lastName;
  }
-}
 
-
-const guest = [
+ const guest = [
  new person ('Bobby', 'Stone'),
  new person ('Stanly', 'Peters'),
  new person ('Max', 'Becker'),
 ];
-
+}
