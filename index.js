@@ -1,4 +1,4 @@
-class person {
+class Person {
  construnctor(firstName, lastName)
  this.firstName = firstName;
  this.lastName = lastName;
@@ -6,10 +6,11 @@ class person {
 
 
  
-const guest = [
- new person ('Bobby', 'Stone'),
- new person ('Stanly', 'Peters'),
- new person ('Max', 'Becker'),
+const guests = [
+ new Person ('Bobby', 'Stone'),
+ new Person ('Stanly', 'Peters'),
+ new Person ('Max', 'Becker'),
 ];
+
 
 
