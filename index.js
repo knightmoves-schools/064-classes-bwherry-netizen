@@ -1,7 +1,13 @@
-function markAsDone(todos) {
-for (let i = 0; i < todos.length; i++) {
-  todos[i] = 'done - ' + todos[i]
-  }
-  return todos;
+class person {
+ constructer(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+ }
 }
 
+
+const guest = [
+new person ('Bobby', 'Stone'),
+new person ('Stanly', 'Peters'),
+new person ('Max', 'Becker')
+];
