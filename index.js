@@ -1,5 +1,5 @@
 class person {
- constructer(firstName, lastName) {
+ constructer (firstName, lastName) {
   this.firstName = firstName;
   this.lastName = lastName;
  }
@@ -7,7 +7,8 @@ class person {
 
 
 const guest = [
-new person ('Bobby', 'Stone'),
-new person ('Stanly', 'Peters'),
-new person ('Max', 'Becker')
+ new person ('Bobby', 'Stone'),
+ new person ('Stanly', 'Peters'),
+ new person ('Max', 'Becker'),
 ];
+
